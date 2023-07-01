@@ -1,3 +1,31 @@
 /* @tailwind base;
 @tailwind components;
 @tailwind utilities; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding-right: 10px;
+}
+
+a.active {
+    color: aqua;
+}
+
+.post a {
+    text-transform: none;
+    color: black;
+}
